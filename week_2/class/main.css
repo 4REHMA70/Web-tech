@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0    
+}
+body{
+    font: arial;
+    background-color: beige
+}
+h1,h2{
+    text-align: center
+}
+nav{
+    background-color: blanchedalmond
+}
+nav ul{
+   margin-left: 15% 
+}
+section{
+    border: 10px solid purple;
+    padding: 10%;
+    float: left;
+}
