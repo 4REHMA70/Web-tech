@@ -4,3 +4,31 @@
 header{
 color: red
 }
+nav ul li{
+    display: inline;
+}
+nav.test:hover{
+
+}
+#mob{
+padding: 25px;
+height: 200px;
+margin-right: 100px;
+display: inline-block;
+}
+#cc{
+    margin: 10px 
+}
+article{
+    padding: 10px;
+    box-shadow: 5px 5px 2px gray;
+
+    width: 17%;
+    margin: 20px;
+    border: 1px solid gray;
+    display: inline-block;
+}
+#v{
+    width: 10%;
+    display: inline-block;
+}
