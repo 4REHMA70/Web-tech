@@ -1,0 +1,5 @@
+nav display: none (removes)
+display block (visible)
+when printing out, irrelevant info can be removed
+how do I simultaneously set a small width of xyz and have contents fall below xyz anyways?
+100px auto;
