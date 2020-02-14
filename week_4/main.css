@@ -1,0 +1,41 @@
+*{
+    padding: 5px;
+    font: Serif
+}
+#sur{
+    width: 500px;
+} input[type="text"], input[type="tel"], input[type="email"]{
+width: 340px;
+}
+#sur fieldset{
+    background-color: darkslateblue
+}
+#sur legend{
+    text-align: center;
+    font: bold;
+}
+#aaa{
+    transition-duration: 0.4s;
+    border: none;
+    padding: 15px 32px;
+}
+#aaa:hover{
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+#com{
+    transition-duration: 2s;
+    border-style: groove
+
+}
+#com:hover{
+    color: white;
+    background-color: rgb(148, 197, 148);
+}
+.input{
+
+}
+.input:hover{
+    color: white;
+    background-color: #4CAF50;
+}
