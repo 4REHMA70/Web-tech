@@ -2,17 +2,36 @@
     padding: 5px;
     font: Serif
 }
+@keyframes mm{
+    from{left: 0px;}
+    to{left: 200px;}
+}
+#zx{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: mm 5s infinite;
+}
 #sur{
     width: 500px;
 } input[type="text"], input[type="tel"], input[type="email"]{
 width: 340px;
+transition-duration: 0.3s;
+border: groove;
+border-radius: 5px
+}
+input[type="text"]:hover, input[type="tel"]:hover, input[type="email"]:hover{
+    color: aliceblue;
+    background-color: rgb(122, 201, 125)
 }
 #sur fieldset{
-    background-color: darkslateblue
+    background-color: rgb(104, 91, 185)
 }
 #sur legend{
     text-align: center;
     font: bold;
+    color: #4CAF50
 }
 #aaa{
     transition-duration: 0.4s;
@@ -24,18 +43,28 @@ width: 340px;
     color: white;
 }
 #com{
-    transition-duration: 2s;
-    border-style: groove
-
+    transition-duration: 0.6s;
+    border: groove;
+    border-radius: 5px
 }
 #com:hover{
     color: white;
-    background-color: rgb(148, 197, 148);
+    background-color: rgb(135, 253, 135);
 }
-.input{
+#com:hover:invalid{
+border: solid red
+}
+#com:hover:valid{
+border: solid greenyellow
+}
+input:hover:invalid {
+    border: solid red;
+}
 
+input:hover:valid {
+    border:solid greenyellow;
 }
-.input:hover{
-    color: white;
-    background-color: #4CAF50;
+
+fieldset{
+    display: grid
 }
