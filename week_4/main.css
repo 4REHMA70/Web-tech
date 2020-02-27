@@ -2,20 +2,20 @@
     padding: 5px;
     font: Serif
 }
-@keyframes mm{
-    from{left: 0px;}
-    to{left: 200px;}
+
+
+
+body{
+    
+
+    width: 500px;
+    margin: 0 auto;
 }
-#zx{
-    width: 100px;
-    height: 100px;
-    background: red;
-    position: relative;
-    animation: mm 5s infinite;
-}
+
 #sur{
     width: 500px;
-} input[type="text"], input[type="tel"], input[type="email"]{
+} 
+input[type="text"], input[type="tel"], input[type="email"]{
 width: 340px;
 transition-duration: 0.3s;
 border: groove;
@@ -39,8 +39,7 @@ input[type="text"]:hover, input[type="tel"]:hover, input[type="email"]:hover{
     padding: 15px 32px;
 }
 #aaa:hover{
-    background-color: #4CAF50; /* Green */
-    color: white;
+
 }
 #com{
     transition-duration: 0.6s;
@@ -58,10 +57,14 @@ border: solid red
 border: solid greenyellow
 }
 input:hover:invalid {
+    background-color: rgb(228, 30, 30); /* Green */
+    color: white;
     border: solid red;
 }
 
 input:hover:valid {
+    background-color: #4CAF50; /* Green */
+    color: white;
     border:solid greenyellow;
 }
 
